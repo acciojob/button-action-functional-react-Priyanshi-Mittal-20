@@ -11,7 +11,7 @@ const ButtonActionFunctional=()=>{
   return (
     <div>
       <button id="click" onClick={handlePara}>Click</button>
-      <p id="para">{buttonAction}</p>
+      {buttonAction && <p id="para">{buttonAction}</p>}
     </div>
   )
 }
