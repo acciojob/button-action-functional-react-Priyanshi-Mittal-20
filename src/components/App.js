@@ -5,7 +5,7 @@ import ButtonActionFunctional from "./ButtonActionFunctional";
 function App() {
   return (
     <div id="main">
-      <ButtonActionFunctional></ButtonActionFunctional>
+      <ButtonActionFunctional/>
     </div>
   );
 }
